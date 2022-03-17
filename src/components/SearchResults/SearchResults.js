@@ -1,7 +1,17 @@
+import React from 'react';
+import TrackList from '../TrackList/TrackList';
 import './SearchResults.css';
 
-function SearchResults(props) {
-  return <div></div>;
+class SearchResults extends React.Component {
+
+  render() {
+    return (
+      <div className="SearchResults">
+        <h2>Results</h2>
+        <TrackList tracks={this.props.SearchResults} />
+      </div>
+    )
+  }
 }
 
 export default SearchResults;
