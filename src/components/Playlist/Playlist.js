@@ -2,8 +2,8 @@ import React from 'react';
 import TrackList from '../TrackList/TrackList';
 import './Playlist.css';
 
-class Playlist extends React.Component {
-  render() {
+function Playlist(props) {
+
     return (
       <div className="Playlist">
         <input defaultValue={"New Playlist"} />
@@ -12,6 +12,6 @@ class Playlist extends React.Component {
       </div>
     )
   }
-}
+
 
 export default Playlist;
