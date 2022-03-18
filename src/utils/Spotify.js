@@ -1,6 +1,6 @@
 const clientId = "a6ae8046eae14b89917e83b468cc15ec";
 
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://spoti-sua.surge.sh/";
 const spotifyUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
 let accessToken;
 let expiresIn = undefined;
